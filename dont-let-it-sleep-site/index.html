@@ -18,6 +18,7 @@
       --purple: #d743f5;
     }
 
+```
 * {
   box-sizing: border-box;
 }
@@ -53,10 +54,27 @@ body {
   place-items: center;
   margin: 0 auto 18px;
   background: rgba(69, 215, 255, 0.18);
-  color: var(--cyan);
-  font-size: 42px;
-  font-weight: 900;
   box-shadow: 0 0 28px rgba(69, 215, 255, 0.20);
+  position: relative;
+  overflow: visible;
+}
+
+.brand-icon .moon {
+  font-size: 40px;
+  line-height: 1;
+  filter: drop-shadow(0 0 10px rgba(69, 215, 255, 0.35));
+}
+
+.brand-icon .zzz {
+  position: absolute;
+  top: 10px;
+  right: 2px;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  color: var(--cyan);
+  text-shadow: 0 0 8px rgba(69, 215, 255, 0.45);
 }
 
 h1 {
@@ -144,13 +162,18 @@ a:hover {
     width: 100%;
   }
 }
+```
 
   </style>
 </head>
 <body>
   <div class="card">
-    <div class="brand-icon">⚡</div>
+    <div class="brand-icon" aria-hidden="true">
+      <span class="moon">🌙</span>
+      <span class="zzz">zzz</span>
+    </div>
 
+```
 <h1>Don’t Let It Sleep</h1>
 
 <p class="tagline">
@@ -173,6 +196,7 @@ a:hover {
   <a class="button" href="support.html">Support</a>
   <a class="button secondary" href="privacy.html">Privacy Policy</a>
 </div>
+```
 
   </div>
 </body>
