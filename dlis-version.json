@@ -1,0 +1,9 @@
+{
+  "ios": {
+    "minimumSupportedVersion": "1.0.0",
+    "latestVersion": "1.0.1",
+    "forceUpdate": false,
+    "appStoreURL": "https://apps.apple.com/app/id6767919187",
+    "message": "A newer version of Don’t Let It Sleep is available."
+  }
+}
